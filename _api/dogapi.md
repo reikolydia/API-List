@@ -7,7 +7,7 @@ content_markdown: |-
 left_code_blocks:
   - code_block: |-
       $ Invoke-RestMethod -Uri 'https://dog.ceo/api/breeds/image/random/'
-    title:
+    title: Powershell
     language: bash
 right_code_blocks:
   - code_block: |-

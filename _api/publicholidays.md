@@ -12,7 +12,7 @@ content_markdown: |-
 left_code_blocks:
   - code_block: |-
       $ Invoke-RestMethod -Uri 'https://date.nager.at/api/v3/PublicHolidays/(year)/(countryCode)'
-    title: Random
+    title: Powershell
     language: bash
 right_code_blocks:
   - code_block: |-

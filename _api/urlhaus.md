@@ -9,7 +9,7 @@ content_markdown: |-
 left_code_blocks:
   - code_block: |-
       $ Invoke-WebRequest -Uri 'https://urlhaus-api.abuse.ch/v1/url/' -Method POST -Body @{url='http://sskymedia.com/VMYB-ht_JAQo-gi/INV/99401FORPO/20673114777/US/Outstanding-Invoices/'}
-    title: Query URL Information
+    title: Powershell
     language: bash
 right_code_blocks:
   - code_block: |-

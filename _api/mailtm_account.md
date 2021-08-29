@@ -12,7 +12,7 @@ content_markdown: |-
 left_code_blocks:
   - code_block: |-
       Invoke-WebRequest -Uri 'https://api.mail.tm/accounts' -Method POST -Body @{address='tempuser@trythe.net'; password='temppassword'} -Headers @{'Content-Type'='application/json'}
-    title: Random
+    title: Powershell
     language: bash
 right_code_blocks:
   - code_block: |-

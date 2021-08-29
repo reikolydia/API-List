@@ -34,7 +34,7 @@ content_markdown: |-
 left_code_blocks:
   - code_block: |-
       $ Invoke-RestMethod -Uri 'https://api.domainsdb.info/v1/domains/search?api_key=(api)&date=(date)&page=(page)&limit=(1)&domain=(google.com)&zone=(zone)&country=(country)&isDead=(false)&A=(A)&NS=(NS)&CNAME=(CNAME)&MX=(MX)&TXT=(TXT)'
-    title:
+    title: Powershell
     language: bash
 right_code_blocks:
   - code_block: |-

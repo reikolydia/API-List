@@ -13,7 +13,7 @@ content_markdown: |-
 left_code_blocks:
   - code_block: |-
       $ Invoke-RestMethod -Uri 'https://placebear.com/(width)/(height).jpg'
-    title:
+    title: Powershell
     language: bash
 right_code_blocks:
 ---
