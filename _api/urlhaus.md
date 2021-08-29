@@ -4,12 +4,18 @@ position_number: 1.6
 type: post
 description: URLhaus offers an API to both, receive (download) and submit malware URLs from the URLhaus database.
 parameters:
+  - name: url
+    content: The URL you want to query URLhaus for
 content_markdown: |-
   Beside the APIs documented on [URLhaus](https://urlhaus-api.abuse.ch/) that serves various feeds and lists, abuse.ch also offers a dedicated API that allows to gather information on a specific **URL**, **file hash** or **tag** from URLhaus through an automated way. It is also possible to retrieve a **payload** (malware sample) URLhaus has collected from malware URLs it tracks.
 left_code_blocks:
   - code_block: |-
-      $ Invoke-WebRequest -Uri 'https://urlhaus-api.abuse.ch/v1/url/' -Method POST -Body @{url='http://sskymedia.com/VMYB-ht_JAQo-gi/INV/99401FORPO/20673114777/US/Outstanding-Invoices/'}
+      $ Invoke-WebRequest -Uri 'https://urlhaus-api.abuse.ch/v1/url/' -Method POST -Body @{url='(url)'}
     title: Powershell
+    language: bash
+  - code_block: |-
+      $ Invoke-WebRequest -Uri 'https://urlhaus-api.abuse.ch/v1/url/' -Method POST -Body @{url='http://sskymedia.com/VMYB-ht_JAQo-gi/INV/99401FORPO/20673114777/US/Outstanding-Invoices/'}
+    title: Example
     language: bash
 right_code_blocks:
   - code_block: |-

@@ -11,8 +11,12 @@ parameters:
 content_markdown: |-
 left_code_blocks:
   - code_block: |-
-      Invoke-WebRequest -Uri 'https://api.mail.tm/accounts' -Method POST -Body @{address='tempuser@trythe.net'; password='temppassword'} -Headers @{'Content-Type'='application/json'}
+      Invoke-WebRequest -Uri 'https://api.mail.tm/accounts' -Method POST -Body @{address='(address)'; password='(password)'} -Headers @{'Content-Type'='application/json'}
     title: Powershell
+    language: bash
+  - code_block: |-
+      Invoke-WebRequest -Uri 'https://api.mail.tm/accounts' -Method POST -Body @{address='tempuser@trythe.net'; password='temppassword'} -Headers @{'Content-Type'='application/json'}
+    title: Example
     language: bash
 right_code_blocks:
   - code_block: |-

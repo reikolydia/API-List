@@ -5,9 +5,9 @@ type: get
 description: To get a random placeholder picture of a bear
 parameters:
   - name: width
-    content: 200
+    content: Width in pixels
   - name: height
-    content: 300
+    content: Height in pixels
 content_markdown: |-
     The response will be in a image of jpeg format.
 left_code_blocks:
@@ -15,5 +15,13 @@ left_code_blocks:
       $ Invoke-RestMethod -Uri 'https://placebear.com/(width)/(height).jpg'
     title: Powershell
     language: bash
+  - code_block: |-
+      $ Invoke-RestMethod -Uri 'https://placebear.com/200/300.jpg'
+    title: Example
+    language: bash
 right_code_blocks:
+  - code_block: |-
+      Content-type: image/jpeg
+    title: Response
+    language: json
 ---

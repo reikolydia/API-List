@@ -12,8 +12,12 @@ left_code_blocks:
        $ curl -F 'file=@(path to file)\(filename).(file extension)' https://api.anonfiles.com/upload 
     title: curl
     language: bash
+  - code_block: |-
+       $ curl -F 'file=@C:\file.txt' https://api.anonfiles.com/upload 
+    title: Example
+    language: bash
 right_code_blocks:
-  - code_block: |2-
+  - code_block: |-
         {
           "status": true,
           "data": {
@@ -35,13 +39,14 @@ right_code_blocks:
         }
     title: Success
     language: json
-  - code_block: |2-
+  - code_block: |-
       {
           "status": false,
           "error": {
             "message": "File is too large. Max file size is 5 GiB.",
             "type": "ERROR_FILE_SIZE_EXCEEDED"
             "code": 31
+          }
         }
     title: Error
     language: json

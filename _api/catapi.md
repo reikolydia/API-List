@@ -7,7 +7,7 @@ parameters:
   - name: rest
     content: Get a random cat photo
   - name: restId
-    content: Gets a cat photo by ID of 1
+    content: Gets a cat photo by ID number
 content_markdown: |-
 left_code_blocks:
   - code_block: |-
@@ -19,7 +19,7 @@ left_code_blocks:
     title: By ID
     language: bash
 right_code_blocks:
-  - code_block: |2-
+  - code_block: |-
         {
           "id": 19,
           "title": "https://i.thatcopy.pw/cat/LsSZNPk.jpg",
@@ -29,7 +29,7 @@ right_code_blocks:
         }
     title: Random
     language: json
-  - code_block: |2-
+  - code_block: |-
       {
           "id": 1,
           "title": "https://i.thatcopy.pw/cat/3UJTX32.jpg",

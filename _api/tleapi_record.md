@@ -13,6 +13,10 @@ left_code_blocks:
       $ Invoke-RestMethod -Uri 'https://tle.ivanstanojevic.me/api/tle/(id)'
     title: Powershell
     language: bash
+  - code_block: |-
+      $ Invoke-RestMethod -Uri 'https://tle.ivanstanojevic.me/api/tle/43638'
+    title: Example
+    language: bash
 right_code_blocks:
   - code_block: |-
       {

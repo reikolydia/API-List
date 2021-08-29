@@ -14,6 +14,10 @@ left_code_blocks:
       $ Invoke-RestMethod -Uri 'https://date.nager.at/api/v3/PublicHolidays/(year)/(countryCode)'
     title: Powershell
     language: bash
+  - code_block: |-
+      $ Invoke-RestMethod -Uri 'https://date.nager.at/api/v3/PublicHolidays/2021/AU'
+    title: Example
+    language: bash
 right_code_blocks:
   - code_block: |-
         [

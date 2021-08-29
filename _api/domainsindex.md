@@ -33,8 +33,12 @@ parameters:
 content_markdown: |-
 left_code_blocks:
   - code_block: |-
-      $ Invoke-RestMethod -Uri 'https://api.domainsdb.info/v1/domains/search?api_key=(api)&date=(date)&page=(page)&limit=(1)&domain=(google.com)&zone=(zone)&country=(country)&isDead=(false)&A=(A)&NS=(NS)&CNAME=(CNAME)&MX=(MX)&TXT=(TXT)'
+      $ Invoke-RestMethod -Uri 'https://api.domainsdb.info/v1/domains/search?api_key=(api)&date=(date)&page=(page)&limit=(limit)&domain=(domain)&zone=(zone)&country=(country)&isDead=(false)&A=(A)&NS=(NS)&CNAME=(CNAME)&MX=(MX)&TXT=(TXT)'
     title: Powershell
+    language: bash
+  - code_block: |-
+      $ Invoke-RestMethod -Uri 'https://api.domainsdb.info/v1/domains/search?limit=1&domain=google.com'
+    title: Example
     language: bash
 right_code_blocks:
   - code_block: |-

@@ -9,11 +9,15 @@ parameters:
 content_markdown: |-
 left_code_blocks:
   - code_block: |-
-       $ Invoke-RestMethod -Uri 'https://api.anonfiles.com/v2/file/vfd0C8Ebu0/info'
+       $ Invoke-RestMethod -Uri 'https://api.anonfiles.com/v2/file/(id)/info'
     title: Powershell
     language: bash
+  - code_block: |-
+       $ Invoke-RestMethod -Uri 'https://api.anonfiles.com/v2/file/vfd0C8Ebu0/info'
+    title: Example
+    language: bash
 right_code_blocks:
-  - code_block: |2-
+  - code_block: |-
         {
           "status": true,
           "data": {
@@ -35,13 +39,14 @@ right_code_blocks:
         }
     title: Success
     language: json
-  - code_block: |2-
+  - code_block: |-
       {
           "status": false,
           "error": {
             "message": "The file you are looking for does not exist.",
             "type": "FILE_NOT_FOUND"
             "code": 404
+          }
         }
     title: Error
     language: json
