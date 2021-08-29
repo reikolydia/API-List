@@ -10,7 +10,7 @@ content_markdown: |-
 left_code_blocks:
   - code_block: |-
        $ curl ipinfo.io/(ip)
-    title: curl
+    title: cURL
     language: bash
   - code_block: |-
        $ curl ipinfo.io/8.8.8.8

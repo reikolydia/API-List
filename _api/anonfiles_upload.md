@@ -9,11 +9,11 @@ parameters:
 content_markdown: |-
 left_code_blocks:
   - code_block: |-
-       $ curl -F 'file=@(path to file)\(filename).(file extension)' https://api.anonfiles.com/upload 
-    title: curl
+       $ cURL -F 'file=@(path to file)\(filename).(file extension)' https://api.anonfiles.com/upload 
+    title: cURL
     language: bash
   - code_block: |-
-       $ curl -F 'file=@C:\file.txt' https://api.anonfiles.com/upload 
+       $ cURL -F 'file=@C:\file.txt' https://api.anonfiles.com/upload 
     title: Example
     language: bash
 right_code_blocks:

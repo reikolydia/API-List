@@ -9,12 +9,12 @@ parameters:
 content_markdown: |-
 left_code_blocks:
   - code_block: |-
-       $ curl --location --request GET 'https://api.eva.pingutil.com/email?email=(email)
-    title: curl
+       $ cURL --location --request GET 'https://api.eva.pingutil.com/email?email=(email)
+    title: cURL
     language: bash
   - code_block: |-
-       $ curl --location --request GET 'https://api.eva.pingutil.com/email?email=test@mail7.io
-    title: curl Example
+       $ cURL --location --request GET 'https://api.eva.pingutil.com/email?email=test@mail7.io
+    title: cURL Example
     language: bash
   - code_block: |-
       GET /email?email=(email) HTTP/1.1

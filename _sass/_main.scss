@@ -235,6 +235,13 @@ h3 .endpoint {
 	}
 }
 
+.endpoint.patch {
+	color: #00ff0d;
+	&:after {
+		content: "PATCH";
+	}
+}
+
 .endpoint.post {
 	color: #42A5F5;
 	&:after {

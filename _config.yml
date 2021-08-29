@@ -53,6 +53,7 @@ types:
   - put
   - delete
   - post
+  - patch
 
 languages:
   bash: Bash
