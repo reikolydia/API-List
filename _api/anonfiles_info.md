@@ -39,9 +39,9 @@ right_code_blocks:
       {
           "status": false,
           "error": {
-            "message": "File is too large. Max file size is 5 GiB.",
-            "type": "ERROR_FILE_SIZE_EXCEEDED"
-            "code": 31
+            "message": "The file you are looking for does not exist.",
+            "type": "FILE_NOT_FOUND"
+            "code": 404
         }
     title: Error
     language: json
