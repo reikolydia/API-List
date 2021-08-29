@@ -5,8 +5,9 @@ parameters:
   - name:
     content:
 content_markdown: |-
+  A list of authentication-***less*** API endpoints.
 
-  A good place to start is the [httpbin.org service](https://httpbin.org/).
+  A good place to start testing is with the [httpbin.org](https://httpbin.org/) service.
 
   ### To use Windows Powershell: ###
 
