@@ -30,13 +30,13 @@ right_code_blocks:
     title: Random
     language: json
   - code_block: |-
-      {
+        {
           "id": 1,
           "title": "https://i.thatcopy.pw/cat/3UJTX32.jpg",
           "webpurl": "https://i.thatcopy.pw/cat-webp/3UJTX32.webp",
           "x": 60.27
           "y": 46.98
-      }
+        }
     title: By ID
     language: json
 ---
