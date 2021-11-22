@@ -36,7 +36,7 @@ right_code_blocks:
           "webpurl": "https://i.thatcopy.pw/cat-webp/3UJTX32.webp",
           "x": 60.27
           "y": 46.98
-        }
+      }
     title: By ID
     language: json
 ---
